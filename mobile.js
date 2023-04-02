@@ -57,31 +57,16 @@ prevBtn.disabled = true;
 
 // CLIENT LOGO SCROLLER
 function checkLogoRowWidth() {
-  var logoRow = document.querySelector('.logo-row');
+  var logoRow = document.querySelector(".logo-row");
   if (logoRow.scrollWidth > logoRow.clientWidth) {
-    logoRow.classList.add('scrollable');
+    logoRow.classList.add("scrollable");
   } else {
-    logoRow.classList.remove('scrollable');
+    logoRow.classList.remove("scrollable");
   }
 }
 
-window.addEventListener('load', checkLogoRowWidth);
-window.addEventListener('resize', checkLogoRowWidth);
-
-// WELCOME
-window.addEventListener('scroll', function() {
-  let element = document.querySelector('.who p');
-  let position = element.getBoundingClientRect().top;
-  let screenPosition = window.innerHeight / 1.3;
-
-  if (position < screenPosition) {
-    element.classList.add('visible');
-  }
-});
-
-
-
-
+window.addEventListener("load", checkLogoRowWidth);
+window.addEventListener("resize", checkLogoRowWidth);
 
 // var openNav = false;
 // function navBtn()
