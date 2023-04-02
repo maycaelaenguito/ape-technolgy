@@ -21,11 +21,42 @@ header.about{
     letter-spacing: -0.005em;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
+
+
 @media screen and (min-width:1024px) {
     .about h1{
         font-size: 80px; 
     }
+
+    .wrapper {
+        display: grid;
+        grid-template-rows: repeat(1fr);
+        grid-template-columns: repeat(2, 1fr);
+        margin: 50px;
+    }
+
+    .letsTalk {
+        text-align: left;
+        margin-left: 15vw;
+        margin-top: 75px;
+    }
     
+    iframe {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+@media screen and (max-width:1023px) {
+    .letsTalk {
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    iframe {
+        width: 70%;
+        height: 50vh;
+    }
 }
 header.about nav a{
     color: #fff;
@@ -34,17 +65,19 @@ header.about nav a{
 /* BODY */
 
 
-.letsTalk {
-    text-align: center;
-    margin: 15px;
-}
 
 form {
     margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
 }
 
 form input {
     margin-bottom: 20px;
+    
 }
 
 form select {
@@ -58,4 +91,8 @@ form label {
 form input label select textarea {
     display: flex;
     flex-direction: column;
+}
+
+.map {
+    text-align: center;
 }
