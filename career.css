@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header.about{
+    background: url(images/careers\ -\ Edited.png);
+    background-size: cover;
+    background-position: center center;
+    height: 70vh;
+}
+.about h1{
+    margin-left: 1rem;
+    color: #fff;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    margin-top: 30vh;
+    font-size: 35px;
+    letter-spacing: -0.005em;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+@media screen and (min-width:1024px) {
+    .about h1{
+        font-size: 80px; 
+    }
+    
+}
+header.about nav a{
+    color: #fff;
+}
+
+/* SELECT */
+.selectOption {
+    text-align: center;
+    width: auto;
+    height: 50px;
+    padding: 15px;
+}
+
+.cmb {
+    display: block;
+    margin: 0 auto;
+    outline: none;
+    border-top: 0;
+    border-right: 0;
+    border-left: 0;
+    border-bottom: 2px solid #38AAA4;
+}
+
+/* Job List */
+
+.jobList {
+    background-color: #DEF2F1;
+    height: auto;
+    margin-inline: 20px;
+    border-radius: 40px;
+    padding: 10px;
+    margin-block: 15px;
+    text-align: center;
+}
+
+.jobList h5 {
+    text-align: center;
+    color: white;
+    width: auto;
+    font-size: 15px;
+    background-color: #3AAFA9;
+    border-radius: 30px;
+    margin-inline: 40px;
+}
+
+.jobList a {
+    text-decoration: none;
+    color: #2B7A78;
+    font-size: 15px;
+    font-weight: bold;
+    padding-top: 10px;
+    margin: auto;
+}
+
+.jobList h6 {
+    color: #5C5C5C;
+    padding-top: 10px;
+}
+
+
+/* RESPONSIVENESS */
+
+/* DESKTOP */
+@media screen and (min-width: 1025px) and (max-width: 1920px) {
+
+    .selectOption {
+        text-align: center;
+        width: auto;
+        height: 15vh;
+        padding: 50px;
+        font-size: larger;
+    }
+
+    .jobs {
+        display: grid;
+        grid-template-rows: repeat(3, 1fr);
+        grid-template-columns: repeat(2, 1fr);
+        margin: 0 10vh 0;
+    }
+
+    .jobList {
+        background-color: #DEF2F1;
+        height: auto;
+        margin-inline: 20px;
+        border-radius: 40px;
+        padding: 10px;
+        margin-block: 15px;
+        text-align: center;
+    }
+
+    .jobList h5 {
+        text-align: center;
+        color: white;
+        font-size: 2.5rem;
+        background-color: #3AAFA9;
+        border-radius: 30px;
+        margin-inline: 40px;
+    }
+
+    .jobList a {
+        color: #2B7A78;
+        font-size: 2rem;
+        font-weight: bold;
+        padding-top: 15px;
+        margin: auto;
+    }
+
+    .jobList h6 {
+        color: #5C5C5C;
+        font-size: 1.5rem;
+        padding-top: 30px;
+    }
+}

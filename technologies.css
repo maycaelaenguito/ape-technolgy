@@ -1,0 +1,104 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header.technologies{
+    background: url(images/technologies\ -\ Edited.png);
+    background-size: cover;
+    background-position: center center;
+    height: 70vh;
+    overflow-x: hidden;
+}
+
+header.technologies nav a{
+    color: #fff;
+}
+header h1{
+    margin-left: 1rem;
+    color: #fff;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    margin-top: 30vh;
+    font-size: 35px;
+    letter-spacing: -0.005em;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+/* ICONS */
+.container{
+    margin-top: 2rem;
+}
+.featured-icon-card{
+    padding: 1rem;
+    text-align: center;
+    transition: background-color 0.3s;
+    margin-bottom: 2em;
+  }
+  /* .featured-icon-card:hover .fa{
+  
+  } */
+  .featured-icon-card:hover{
+  background: #2b7573;
+  }
+
+  .featured-icon-card:hover .featured-icon-textbox h3{
+    color: #fff;
+  }
+  .featured-icon-textbox h3{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    color: #2B7A78;
+  }
+
+  .featured-icon-container{
+    font-size: 2em;
+    width: 2em;
+    height: 2em;
+    margin: auto;
+    transition: background-color 0.3s,  color 0.3s;
+  }
+
+  .fa-bs-responsive{
+    line-height: 2em;
+  }
+  
+  .featured-icon-textbox{
+    margin-top: 1rem;
+  }
+.core{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2rem;
+}
+.core h1{
+    color: #2B7A78;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    letter-spacing: -0.005em;
+    width: fit-content;
+}
+@media screen and (min-width: 469px) and (max-width: 599px) {
+    header h1{
+        font-size: 50px;
+    }
+}
+@media screen and (min-width: 600px) and (max-width: 802px) {
+    header h1{
+        font-size: 60px;
+    }
+}
+@media screen and (min-width: 803px) and (max-width: 1920px) {
+    header h1{
+        font-size: 80px;
+    }
+}
+.body-container{
+    background-color: #DEF2F1;
+}

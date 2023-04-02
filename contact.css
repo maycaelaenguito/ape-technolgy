@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+header.about{
+    background: url(images/contact\ -\ Edited.png);
+    background-size: cover;
+    background-position: center center;
+    height: 70vh;
+}
+.about h1{
+    margin-left: 1rem;
+    color: #fff;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    margin-top: 30vh;
+    font-size: 35px;
+    letter-spacing: -0.005em;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+@media screen and (min-width:1024px) {
+    .about h1{
+        font-size: 80px; 
+    }
+    
+}
+header.about nav a{
+    color: #fff;
+}
+
+/* BODY */
+
+
+.letsTalk {
+    text-align: center;
+    margin: 15px;
+}
+
+form {
+    margin: 20px;
+}
+
+form input {
+    margin-bottom: 20px;
+}
+
+form select {
+    margin-bottom: 20px;
+}
+
+form label {
+    color: #2B7A78;
+}
+
+form input label select textarea {
+    display: flex;
+    flex-direction: column;
+}

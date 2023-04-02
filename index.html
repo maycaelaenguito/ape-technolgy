@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="main.css">
+    <!-- Google Fonts Link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Comforter+Brush&family=Montserrat:wght@500&family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+    <!-- Boostrap Link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+    <!-- Font Awseome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Bootstrap Icons Link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+
+
+</head>
+<body>
+    <!-- NAVIGATION BAR -->
+    <header class="home">
+        <nav>
+            <a href="index.html"><img src="images/logo-black.png" class="logo"></a>
+              <ul>
+                <li><a href="about.html" class="active">About Us</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="career.html">Careers</a></li>
+                <li><a href="technologies.html">Technologies</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+              </ul>
+              <div class="toggle_btn active" id="icon" onclick="navigation()">
+                <div class="icons">
+                  <span class="line-1" style="background: #000;"></span>
+                  <span class="line-2" style="background: #000;"></span>
+                  <span class="line-3" style="background: #000;"></span>
+                </div>
+              </div>
+                <div class="menu">
+                  <div class="dropdown_menu" id="navbar">
+                    <li><a href="about.html" class="nav-link">About Us</a></li>
+                    <li><a href="#" class="nav-link">Services</a></li>
+                    <li><a href="career.html" class="nav-link">Careers</a></li>
+                    <li><a href="technologies.html" class="nav-link">Technologies</a></li>
+                    <li><a href="contact.html" class="nav-link">Contact Us</a></li>
+                    <div class="social-icons">
+                      <li><a class="facebook" href="#"><i class="bi bi-facebook"></i></a></li>
+                      <li><a class="twitter" href="#"><i class="bi bi-twitter"></i></a></li>
+                      <li><a class="github" href="https://github.com/maycaelaenguito/ape.technology"><i class="bi bi-github"></i></a></li>
+                      <li><a class="linkedin" href="#"><i class="bi bi-linkedin"></i></a></li>   
+                      <li><a class="instagram" href="#"><i class="bi bi-instagram"></i></a></li>  
+                    </div>
+                  </div>
+                </div>
+        </nav>
+          <div class="text p-lg-3 p-3">
+            <h1>Empowering <br> businesses with <br> innovative solutions.</h1>
+            <p class="learn"><a href="#">Learn how we can help you.</a> <span><i class="bi bi-arrow-right"></i></span></p>
+          </div>
+          <!-- WAVES PARALLAX -->
+          <div>
+            <svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+            viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
+            <defs>
+            <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
+            </defs>
+            <g class="parallax">
+            <use xlink:href="#gentle-wave" x="48" y="0" fill="rgba(255,255,255,0.7" />
+            <use xlink:href="#gentle-wave" x="48" y="3" fill="rgba(255,255,255,0.5)" />
+            <use xlink:href="#gentle-wave" x="48" y="5" fill="rgba(255,255,255,0.3)" />
+            <use xlink:href="#gentle-wave" x="48" y="7" fill="#fff" />
+            </g>
+            </svg>
+            </div>
+        </header>
+        <section>
+          <div class="sec2" >
+            <img src="images/Your paragraph text (3)-modified.png" alt="about company image">
+          </div>
+          <div class="text">
+            <p>
+              APE Technology offers professional outsourcing services for web and mobile development. Our experienced developers build custom solutions to meet our clients' unique needs. We work closely with our clients to exceed their expectations and deliver cost-effective, reliable services.
+            </p>
+          </div>
+          
+        </section>
+
+        <!-- SERVICES -->
+        <div class="services">
+          <div class="text-home">
+            <h1>Our Services</h1>
+          </div>
+          <div class="service-buttons">
+            <button type="button"><a href="#">Front-End Development</a></button>
+            <button type="button"><a href="#">Back-End Development</a></button>
+            <button type="button"><a href="#">Full-Stack Development</a></button>
+            <button type="button"><a href="#">UX/UI Design</a></button>
+            <button type="button"><a href="#">Mobile App Development</a></button>
+          </div>
+        </div>
+
+        <!-- Partners -->
+        <div class="partners">
+          <div class="text-home">
+            <h1>Our Clients</h1>
+          </div>
+          <div class="image-container">
+            <div class="scroll-horizontal">
+              <div class="image-group">
+                <img src="images/company1.png" alt="clients">
+                <img src="images/company2.png" alt="clients">
+                <img src="images/company3.png" alt="clients">
+                <img src="images/company4.png" alt="clients">
+                <img src="images/company5.png" alt="clients">
+                <img src="images/company6.png" alt="clients">
+                <img src="images/company7.png" alt="clients">
+                <img src="images/company8.png" alt="clients">
+              </div>  
+            </div>
+        </div>
+           <div class="logo-row">
+            
+           </div>
+        </div>
+
+        <!-- Reviews -->
+        <div class="reviews">
+          <div class="text-home">
+            <h1>What Our Clients Says</h1>
+          </div>
+          <div class="slider-container">
+            <div class="slider-wrapper">
+              <div class="slider-card">
+                <div class="slider-card-content">
+                  <h3>Sarah Johnson</h3>
+                  <h6>Acme Corporation</h6>
+                  <p><i class="bi bi-quote"></i>APE Technology exceeded our expectations in software development quality.</p>
+                </div>
+              </div>
+              <div class="slider-card">
+                <div class="slider-card-content">
+                  <h3>David Lee</h3>
+                  <h6>Alpha Industries</h6>
+                  <p><i class="bi bi-quote"></i>I highly recommend APE Technology for their exceptional technical expertise.</p>
+                </div>
+              </div>
+              <div class="slider-card">
+                <div class="slider-card-content">
+                  <h3>Emily Chen</h3>
+                  <h6>Bright Idea Solutions</h6>
+                  <p><i class="bi bi-quote"></i>APE Technology's team is professional, talented, and easy to work with.</p>
+                </div>
+              </div>
+              <div class="slider-card">
+                <div class="slider-card-content">
+                  <h3>Michael Wong</h3>
+                  <h6>Cyberdyne Systems</h6>
+                  <p><i class="bi bi-quote"></i>The project was completed efficiently thanks to APE Technology's team.</p>
+                </div>
+              </div>
+              <div class="slider-card">
+                <div class="slider-card-content">
+                  <h3>Rachel Kim</h3>
+                  <h6>Elite Enterprises</h6>
+                  <p><i class="bi bi-quote"></i>APE Technology provided customized solutions tailored to our business needs.</p>
+                </div>
+              </div>
+              <div class="slider-card">
+                <div class="slider-card-content">
+                  <h3>Rachel Kim</h3>
+                  <h6>Elite Enterprises</h6>
+                  <p><i class="bi bi-quote"></i>APE Technology provided customized solutions tailored to our business needs.</p>
+                </div>
+              </div>
+              <div class="slider-card">
+                <div class="slider-card-content">
+                  <h3>Rachel Kim</h3>
+                  <h6>Elite Enterprises</h6>
+                  <p><i class="bi bi-quote"></i>APE Technology provided customized solutions tailored to our business needs.</p>
+                </div>
+              </div>
+            </div>
+            <div class="slider-controls pb-2">
+              <button class="slider-control prev"><i class="bi bi-chevron-left"></i></button>
+              <button class="slider-control next"><i class="bi bi-chevron-right"></i></button>
+            </div>
+          </div>
+        </div>
+
+        <!-- FOOTER -->
+        
+          <footer class="site-footer">
+            <div class="container">
+              <div class="row">
+                <div class="col-sm-12 col-md-6">
+                  <h6>About</h6>
+                  <p class="text-justify">APE Technology is a software development outsourcing company that provides custom software development, mobile app development, web development, and QA/testing services. We use modern technologies and agile methodologies to deliver high-quality software on time and within budget, catering to various industries such as healthcare, finance, and e-commerce.</p>
+                </div>
+      
+                <div class="col-xs-6 col-md-3">
+                  <h6>Our Branches</h6>
+                  <ul class="footer-links">
+                    <li><a href="https://goo.gl/maps/ckf1ohCPN2wW47Fc7">Metro Manila</a></li>
+                    <li><a href="https://goo.gl/maps/VMfPSmZ97CMNobKUA">Cebu City</a></li>
+                    <li><a href="https://goo.gl/maps/mjpXG22jPCY9k3Nr9">Baybay City</a></li>
+                    <li><a href="https://goo.gl/maps/y9zREjYSv48qH7568">Baguio City</a></li>
+                    <li><a href="https://goo.gl/maps/dLV9TBf6StFikuxe7">Davao City</a></li>
+                  </ul>
+                </div>
+      
+                <div class="col-xs-6 col-md-3">
+                  <h6>Quick Links</h6>
+                  <ul class="footer-links">
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="careers.html">Careers</a></li>
+                    <li><a href="technologies.html">Technologies</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                  </ul>
+                </div>
+              </div>
+              <hr>
+            </div>
+            <div class="container">
+              <div class="row">
+                <div class="col-md-6 col-sm-5 col-xs-12">
+                  <p class="copyright-text">Copyright &copy; 2023 All Rights Reserved by 
+               <a href="index.html">APE Technology</a>.
+                  </p>
+                </div>
+      
+                <div class="col-md-6 col-sm-7 col-xs-12">
+                  <ul class="social-icons">
+                    <li><a class="facebook" href="#"><i class="bi bi-facebook"></i></a></li>
+                    <li><a class="twitter" href="#"><i class="bi bi-twitter"></i></a></li>
+                    <li><a class="github" href="https://github.com/maycaelaenguito/ape.technology"><i class="bi bi-github"></i></a></li>
+                    <li><a class="linkedin" href="#"><i class="bi bi-linkedin"></i></a></li>   
+                    <li><a class="instagram" href="#"><i class="bi bi-instagram"></i></a></li>  
+                  </ul>
+                </div>
+              </div>
+            </div>
+      </footer>
+        
+    <script src="main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</body>
+</html>
