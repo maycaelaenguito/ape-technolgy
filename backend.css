@@ -1,0 +1,63 @@
+/* Header About */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header.about {
+  background: url(/services/images/back2.jpg);
+  background-size: cover;
+  background-position: center center;
+  height: 70vh;
+}
+.about h1 {
+  color: white;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 45px;
+  letter-spacing: -0.06em;
+  margin-top: 45vh;
+  margin-left: 1rem;
+}
+@media screen and (min-width: 1024px) {
+  .about h1 {
+    font-size: 50px;
+  }
+}
+header.about nav a {
+  color: #fff;
+}
+.about .icons:hover {
+  background-color: rgba(0, 0, 0, 0.573);
+}
+.about-ape {
+  background: #def2f1;
+  margin-bottom: 0;
+  padding: 2rem;
+}
+.about-ape {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 11px;
+  margin-bottom: 0;
+}
+/* TEAM */
+.team img {
+  width: 250px;
+  height: 250px;
+}
+.team {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+/* Mission Vission */
+.mission-vision {
+  background-color: #9eb7b5;
+  color: #000;
+  padding: 2rem;
+}
+.paragraph {
+  font-size: x-large;
+}
