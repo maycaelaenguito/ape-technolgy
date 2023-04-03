@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- CSS -->
     <link rel="stylesheet" href="main.css">
-    <link rel="stylesheet" href="about.css">
+    <link rel="stylesheet" href="services.css">
     <!-- Google Fonts Link -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -21,17 +21,17 @@
 
 
 </head>
-<body>
+<body style="background-color: #DEF2F1;">
     <!-- NAVIGATION BAR -->
     <header class="about">
         <nav>
             <a href="index.html"><img src="images/logo-white.png" class="logo"></a>
               <ul>
-                <li><a href="about.html" class="active">About Us</a></li>
+                <li><a href="about.html">About Us</a></li>
                 <li><a href="services.html">Services</a></li>
-                <li><a href="career.html">Careers</a></li>
+                <li><a href="career.html" >Careers</a></li>
                 <li><a href="technologies.html">Technologies</a></li>
-                <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="contact.html" class="active">Contact Us</a></li>
               </ul>
               <div class="toggle_btn active" id="icon" onclick="navigation()">
                 <div class="icons toggle">
@@ -57,95 +57,61 @@
                   </div>
                 </div>
         </nav>
-          <div class="text">
-            <h1>WHO WE ARE</h1>
-          </div>   
+        <div class="text">
+          <h1>Services</h1>
+        </div>
         </header>
-        <div class="who">
-          <div class="welcome">
-            <p>
-              Welcome to APE Technology, a premier web development outsourcing company founded in 2023 by a team of three highly skilled web developers in the Philippines. At APE Technology, we believe that great ideas deserve to be brought to life with the help of cutting-edge technology and creative solutions. 
-             </p>
-          </div>
-        </div>
 
-        <div class="about-ape">
-          <div class="aboutus">
-              <div class="dhjhfc">
-                <div class="image"><img src="images/about3.png" class="img-fluid"></div>
-                <p class="middle-text">
-                  Our team of experts brings together a wealth of knowledge and experience in web development, software engineering, and project management to deliver custom-made solutions tailored to your unique needs. Whether you need a responsive website, a complex web application, or an e-commerce platform, we are here to help you achieve your goals and take your business to the next level. 
-                </p>
-              </div>
-              <div class="dhjhfc">
-                <div class="image"><img src="images/about2.png" class="img-fluid"></div>
-                <p class="middle-text">Our mission is to empower businesses of all sizes to leverage the power of the internet to reach new heights of success. With a strong commitment to quality and customer satisfaction, we work closely with our clients to understand their vision and deliver solutions that exceed their expectations. </p>
-              </div>
-              <div class="dhjhfc">
-                <div class="image"><img src="images/about4.png" class="img-fluid"></div>
-                <p class="middle-text">
-                  At APE Technology, we are passionate about technology and the endless possibilities it offers. We are committed to staying at the forefront of the latest developments in web development to ensure that our clients receive the best possible service. So why not join us on this exciting journey and see what we can achieve together? Contact us today to learn more about how we can help your business thrive in the digital world.
-              </p>    
-              </div>
-          </div>
-        </div>
-
-
-      <!-- TEAM -->
-      <div class="team">
-        <div class="body">
-          <h1>Meet The Team</h1><br>
-          <div class="wrapper">
-            <div class="box">
-                <img src="images/Fotor_AI.png" >
-                <div class="info">
-                    <h2>Reynald Arro</h2>
-                    <p>Software Development Manager</p><br>
-                    <a href="#profile"><button type="button" class="profile">Learn More.</button> </a>   
+        <div class="main">
+          <ul class="cards">
+            <li class="cards_item">
+              <div class="card">
+                <div class="card_image"><img src="images/front.png"></div>
+                <div class="card_content">
+                  <h2 class="card_title">Front End Web Development</h2>
+                  <p class="card_text">Expert front-end web development services by Ape Technology. High-quality code and responsive design to enhance user experience.</p>
                 </div>
-            </div>
-    
-            <div class="box">
-                <img src="images/Fotor_AI (2).png">
-                <div class="info">
-                    <h2>John Lester Pastrana</h2>
-                    <p>Full Stack Web Developer</p>  <br>
-                    <a href="https://pastlester.github.io/my-portfolio/"><button type="button" class="profile">Learn More.</button> </a>            
+              </div>
+            </li>
+            <li class="cards_item">
+              <div class="card">
+                <div class="card_image"><img src="images/back.png"></div>
+                <div class="card_content">
+                  <h2 class="card_title">Back End Web Development</h2>
+                  <p class="card_text">We offer end-to-end web development solutions, from front-end to back-end, to create dynamic and responsive web applications.</p>
                 </div>
-            </div>
-    
-            <div class="box">
-                <img src="images/Fotor_AI (1).png">
-                <div class="info">
-                    <h2>Maycaela Enguito</h2>
-                    <p>Full Stack Web Developer</p> <br>
-                    <a href="#profile"><button type="button" class="profile">Learn More.</button> </a>      
+              </div>
+            </li>
+            <li class="cards_item">
+              <div class="card">
+                <div class="card_image"><img src="images/full.png"></div>
+                <div class="card_content">
+                  <h2 class="card_title">Full-Stack Web Development</h2>
+                  <p class="card_text">Transform ideas into reality with our Full-Stack Web Development services. Get end-to-end solutions for seamless web development.</p>
                 </div>
-            </div>
-        </div>
+              </div>
+            </li>
+            <li class="cards_item">
+              <div class="card">
+                <div class="card_image"><img src="images/ui.png"></div>
+                <div class="card_content">
+                  <h2 class="card_title">UI/UX Design</h2>
+                  <p class="card_text">We help your business grow through effective digital marketing strategies and measurable results.  </p>
+                </div>
+              </div>
+            </li>
+            <li class="cards_item">
+              <div class="card">
+                <div class="card_image"><img src="images/mobile.png"></div>
+                <div class="card_content">
+                  <h2 class="card_title">Mobile App Development</h2>
+                  <p class="card_text">Expert mobile app development services for iOS and Android platforms with user-friendly interfaces and seamless performance.</p>
+                </div>
+              </div>
+            </li>
+          </ul>
         </div>
 
-      </div>
-
-      <!-- Mission Vision -->
-      <div class="mv">
-        <h1>Mission & Vision</h1>
-      </div>
-        <div class="mission-vision">
-          
-            <div class="mission">
-              <p>Our mission at Ape Outsourcing Services is to provide cost-effective and customized outsourcing solutions that help businesses increase their efficiency, productivity, and profitability. We are committed to delivering high-quality services and exceeding our clients' expectations by utilizing the latest technology and best practices, hiring and retaining the most talented professionals, and fostering a culture of excellence and continuous improvement. We believe in building long-term partnerships with our clients based on trust, transparency, and mutual respect.</p>
-            <div class="ux">
-              <img src="images/uxui.png" class="img-fluid">
-            </div>
-            </div>
-            <div class="vision">
-              <p>At APE Outsourcing Services, our vision is to be the leading provider of reliable and innovative outsourcing solutions for businesses of all sizes across various industries. We strive to be recognized for our exceptional quality of service, professionalism, and integrity, and to help our clients achieve their goals through our expertise and dedication.</p>
-            <div class="mobile">
-              <img src="images/mobile-app.png" class="img-fluid">
-            </div>
-            </div>
-        </div>
 
         <!-- FOOTER -->
           <footer class="site-footer">
@@ -200,8 +166,9 @@
               </div>
             </div>
       </footer>  
+      
+    
     <script src="main.js"></script>
-    <script src="about.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 </body>
 </html>
